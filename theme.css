@@ -1,0 +1,58 @@
+body {
+  background-color: #f0f0f0;
+  color: #999999;
+}
+ 
+#content {
+  background-color: #ffffff;
+  border-color: #cdcdcd;
+}
+
+.thumbnail {
+  border-color: #cdcdcd;
+}
+
+.thumbnail:hover {
+  border-color: #707070;
+}
+
+.illustration img {
+  border-color: #cdcdcd;
+}
+
+.illustration img:hover {
+  border-color: #707070;
+}
+ 
+.thumbCatDesc {
+  border-top: 1px #666666 dotted;
+}
+ 
+input[type="text"], input[type="password"], select, textarea, file {
+  background:#ececea;
+  color: #666666;
+}
+ 
+.imageNumber {
+  border: 1px #cdcdcd solid;
+}
+ 
+#theImage img {
+  border: 2px #cdcdcd solid;
+}
+
+#navThumbPrev img, #navThumbNext img {
+  border: 2px #cdcdcd solid;
+}
+
+#navThumbPrev img:hover, #navThumbNext img:hover {
+  border-color: #606060;
+}
+
+#theComments h3 {
+  border-top: 2px solid #cdcdcd;
+}
+ 
+#fullTagCloud a:hover {
+  background: #ececea;
+}
