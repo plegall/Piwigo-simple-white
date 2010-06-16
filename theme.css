@@ -56,3 +56,28 @@ input[type="text"], input[type="password"], select, textarea, file {
 #fullTagCloud a:hover {
   background: #ececea;
 }
+
+#quicksearch #q {
+  background-color: #eee;
+  border-color:#cdcdcd;
+  color:#777;
+}
+
+input[type="text"], input[type="password"], select, textarea, file {
+  background:#eee;
+  color: #777;
+  border: 1px solid #cdcdcd;
+  margin: 0;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #eee;
+  border: 1px solid #cdcdcd;
+  color: #777;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #666;
+  border: 1px solid #999;
+  color: #F0F0F0;
+}
