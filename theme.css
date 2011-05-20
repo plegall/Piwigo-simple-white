@@ -2,6 +2,10 @@ body {
   background-color: #f0f0f0;
   color: #999999;
 }
+
+a:hover, #menuswitcher:hover, #theComments h3:hover {
+  color: #707070;
+}
  
 #content {
   background-color: #ffffff;
