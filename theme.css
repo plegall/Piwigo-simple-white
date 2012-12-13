@@ -1,3 +1,6 @@
+.pwg-icon									{ background-image: url(icons_sprite.png);}
+A:hover .pwg-icon 							{ background-image: url(icons_sprite_hover.png);}
+
 body {
   background-color: #f0f0f0;
   color: #999999;
@@ -10,6 +13,11 @@ a:hover, #menuswitcher:hover, #theComments h3:hover {
 #content {
   background-color: #ffffff;
   border-color: #cdcdcd;
+}
+
+#theImageAndInfos, #thePicturePage #comments {
+  background-color: #ffffff;
+  border-top: 2px solid #cdcdcd;
 }
 
 .thumbnail {
@@ -45,12 +53,8 @@ input[type="text"], input[type="password"], select, textarea, file {
   border: 2px #cdcdcd solid;
 }
 
-#navThumbPrev img, #navThumbNext img {
-  border: 2px #cdcdcd solid;
-}
-
-#navThumbPrev img:hover, #navThumbNext img:hover {
-  border-color: #606060;
+#imageInfos .navThumbs a img {
+    border: 2px solid #CDCDCD;
 }
 
 #theComments h3 {
