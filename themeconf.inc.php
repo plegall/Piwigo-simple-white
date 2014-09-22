@@ -10,5 +10,6 @@ Author URI: http://piwigo.wordpress.com
 $themeconf = array(
   'name'  => 'simple-white',
   'parent' => 'simple',
+  'colorscheme' => 'clear',
   );
 ?>
